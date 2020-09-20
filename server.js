@@ -21,7 +21,11 @@ mongoose.connect(
   );
 
 // routes
-app.use(require("./routes/html-routes.js"));
+// This if we use app. in routes.js
+// require("./routes/routes.js")(app);
+// This is because we used Express Router:
+app.use(require("./routes/routes.js"));
+
 
 app.listen(PORT, () => {
   console.log(`App running on port ${PORT}!`);
