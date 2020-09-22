@@ -6,7 +6,7 @@ Live application:
 [https://murmuring-ravine-80508.herokuapp.com/](https://murmuring-ravine-80508.herokuapp.com/).
   
 Screenshot:  
-![image](/assets/images/screenshot.PNG)  
+![image](https://raw.githubusercontent.com/jamesravelle/fitness-tracker/master/public/images/screenshot.PNG)  
 
 ## Languages
 - MongoDB
